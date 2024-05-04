@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(90deg,rgb(172, 236, 178), rgb(0, 73, 0));
+}
+
+header {
+    position: static;
+}
+
+#logo {
+    color: black;
+}
+
+header nav a:hover {
+    color: rgb(244, 17, 17);
+}
+
+#contact-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-row {
+    margin: 16px;
+}
+
+button {
+    color: rgb(105, 224, 141);
+    background-color: rgb(3, 85, 3);
+    padding: 12px 100px;
+    border-radius: 10000000000000000000000000000000px;
+    margin: 0 auto;
+    font-size: 30px;
+    box-shadow: rgb(0, 0, 0, 5) 10px 15px 0px;
+}
+
+select, textarea, input[type="text"] {
+    padding: 5px;
+    width: 100%;
+    border: 4px outset rgb(108, 36, 36);
+    border-radius: 10000000000000000000000000px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    resize: horizontal;
+}
+
+textarea {
+    height: 200px;
+}

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+ul{
+    list-style: none;
+}
+
+#logo {
+    font-family: "Marck Script", cursive;
+    color: rgba(136, 255, 0, 0.685);
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 15px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+header li a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(136, 201, 254);
+    font-family: "Rubik Doodle Triangles", system-ui;
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background: linear-gradient(0deg, rgb(34, 115, 192), rgb(11, 0, 161));
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
+    margin: 0 30px;
+}

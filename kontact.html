@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Glitch+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="kontact.css" />
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="index.html">путешествия®</a>
+      <nav>
+        <ul>
+          <li>
+            <a href="/places.html">места </a>
+          </li>
+          <li>
+            <a href="/kontact.html">контакт</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/xkndypvq"
+        method="POST"
+      >
+        <div class="form-row">
+          <label for="name">ваше имя</label>
+          <input type="text" id="name" name="name" placeholder="имя" />
+        </div>
+        <div class="form-row">
+          <label for="city">в какой гоpод вы xотите поеxать</label>
+          <select name="city" id="city">
+            <option disabled selected value>выберите город</option>
+            <option value="sydnay">сидней</option>
+            <option value="rom">рим</option>
+            <option value="kopenhagen">копенгаген</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>когда вы хотите поехать?</label>
+          <input type="radio" id="winter" value="winter" name="season" />
+          <label for="winter">зима</label>
+          <input type="radio" id="spring" value="spring" name="season" />
+          <label for="spring">весна</label>
+          <input type="radio" id="summer" value="summer" name="season" />
+          <label for="summer">лето</label>
+          <input type="radio" id="autumn" value="autumn" name="season" />
+          <label for="autumn">осень</label>
+        </div>
+        <div class="form-row">
+          <label for="message">ваше сообщение</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <button type="submit">отправить</button>
+      </form>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com"
+            ><img
+              src="images/icons/black-instagram-transparent-logo-10671 (1).png"
+              alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com"
+            ><img src="images/icons/facebook-5219 (2).png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
